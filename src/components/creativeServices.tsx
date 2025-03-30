@@ -4,6 +4,7 @@ import staticContent from '@/assets/staticContent.json';
 export default function CreativeServices() {
 	return (
 		<SectionWrapper
+			id='services'
 			buttonLabel='See Plans'
 			buttonUrl='/#plans'
 			header='All Creative Services'

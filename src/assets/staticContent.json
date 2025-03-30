@@ -260,5 +260,17 @@
             "subheader": "Perks so good you'll never need to go anywhere else for your design. Seriously.",
             "image": "https://pub-2a77ad7abc1d4b5fb9dc7e3bff7b2422.r2.dev/a-min.png"
         }
+    ],
+    "cartitems": [
+        {
+            "itemName": "Branding",
+            "itemCount": 2,
+            "itemPrice": 600
+        },
+        {
+            "itemName": "Website Dev",
+            "itemCount": 2,
+            "itemPrice": 500
+        }
     ]
 }

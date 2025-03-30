@@ -15,6 +15,7 @@ export default function MembershipLevels() {
 							tailored just for you.'
 			buttonLabel=''
 			buttonUrl=''
+			id='plans'
 		>
 			<div className='membership-level-container'>
 				{staticContent.membershipTypes.map((data: MembershipCardProps, i) => (

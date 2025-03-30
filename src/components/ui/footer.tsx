@@ -49,7 +49,6 @@ export default function Footer() {
 									<Button
 										text='Get started'
 										className='bg-black-light btn-base w-full '
-										// onClick={() => {}}
 									/>
 								</div>
 							</div>

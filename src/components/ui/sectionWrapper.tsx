@@ -10,10 +10,11 @@ interface SectionWrapperProp {
 	subHeader: string;
 	buttonLabel: string;
 	buttonUrl: string;
+	id: string;
 }
 export default function SectionWrapper(props: SectionWrapperProp) {
 	return (
-		<section className='w-[95%] md:w-[85%] mx-auto '>
+		<section className='w-[95%] md:w-[85%] mx-auto ' id={props.id}>
 			<div className=' flex flex-col gap-12   '>
 				<div className='flex w-full  '>
 					<div className='lg:w-8/12 m1:w-full '>

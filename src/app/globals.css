@@ -231,3 +231,48 @@
             ".";
     }
 }
+
+.menu-toggle {
+    display: none;
+}
+
+/* Default state: hide mobile menu */
+.mobile-menu {
+    display: none;
+    position: absolute;
+    width: 100%;
+    top: 60px; /* Adjust based on your navbar height */
+    left: 0;
+}
+
+/* When checkbox is checked, show mobile menu */
+#menu-toggle:checked ~ .mobile-menu {
+    display: block;
+}
+
+/* By default, show the hamburger icon and hide the cross icon */
+.cross-icon {
+    display: none;
+}
+
+/* When checked, swap icons */
+#menu-toggle:checked + .mobile-toggle .hamburger-icon {
+    display: none;
+}
+#menu-toggle:checked + .mobile-toggle .cross-icon {
+    display: block;
+}
+
+/* Optional: style the mobile toggle label */
+.mobile-toggle {
+    cursor: pointer;
+    display: block;
+}
+
+/* Hide the mobile toggle on larger screens */
+@media (min-width: 768px) {
+    .mobile-toggle,
+    .mobile-menu {
+        display: none;
+    }
+}

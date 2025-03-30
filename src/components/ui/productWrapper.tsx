@@ -28,6 +28,7 @@ export default function ProductWrapper() {
 			subHeader=''
 			buttonLabel='show all'
 			buttonUrl='/store'
+			id=''
 		>
 			<div className='  flex flex-row  lg:items-center gap-4 overflow-x-scroll lg:overflow-hidden  snap-x snap-mandatory'>
 				{data?.map((e, i) => (

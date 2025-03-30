@@ -1,18 +1,13 @@
 'use client';
 import Link from 'next/link';
 import Image from 'next/image';
-// import Hash
-// import { HashLink } from 'react-router-hash-link';
 import logo from '@/assets/svgs/logo.svg';
 import cross from '@/assets/svgs/cross.svg';
 import humburger from '@/assets/svgs/humburger.svg';
 import { useState, useEffect } from 'react';
 import Button from './button';
 
-// import './nv.css';
-
 export default function NavbarPublic() {
-	const [mobileMenu, setMobileMenu] = useState<boolean>(false);
 	useEffect(() => {
 		const clicked = localStorage.getItem('clicked');
 		if (clicked != 'services' && clicked != 'plans') {
@@ -33,16 +28,13 @@ export default function NavbarPublic() {
 			const currentScrollPosition = window.pageYOffset;
 
 			if (currentScrollPosition > lastScrollPosition && !hideNavbar) {
-				// If the scroll direction is down and the user has scrolled past the navbar, hide the navbar
 				setHideNavbar(true);
 			} else if (
 				currentScrollPosition < lastScrollPosition ||
 				currentScrollPosition === 0
 			) {
-				// If the scroll direction is up or the user is at the top of the page, show the navbar
 				setHideNavbar(false);
 			}
-			// Set the last scroll position to the current scroll position
 			setLastScrollPosition(currentScrollPosition);
 		};
 
@@ -66,6 +58,7 @@ export default function NavbarPublic() {
 						</Link>
 						<ul className=' text-primary items-center gap-4  hidden lg:flex  text-[.65rem]   md:text-[.75rem]'>
 							<Link
+								prefetch
 								href='/store'
 								className='p-3 cursor-pointer'
 								onClick={() => {
@@ -75,6 +68,7 @@ export default function NavbarPublic() {
 								store
 							</Link>
 							<Link
+								prefetch
 								className='p-3 cursor-pointer'
 								href='/work'
 								onClick={() => {
@@ -102,6 +96,7 @@ export default function NavbarPublic() {
 								plans
 							</Link>
 							<Link
+								prefetch
 								className='p-3 cursor-pointer'
 								href='/cart'
 								onClick={() => {
@@ -111,15 +106,69 @@ export default function NavbarPublic() {
 								cart
 							</Link>
 						</ul>
-						<div
-							className='lg:hidden cursor-pointer'
-							onClick={() => setMobileMenu(!mobileMenu)}
-						>
-							{!mobileMenu ? (
-								<Image src={humburger} alt='logo' />
-							) : (
-								<Image src={cross} alt='logo' />
-							)}
+
+						<div className='lg:hidden cursor-pointer'>
+							<input type='checkbox' id='menu-toggle' className='menu-toggle' />
+							<label htmlFor='menu-toggle' className='mobile-toggle'>
+								<Image
+									src={humburger}
+									alt='open menu'
+									className='hamburger-icon'
+									width={30}
+									height={30}
+								/>
+								<Image
+									src={cross}
+									alt='close menu'
+									className='cross-icon'
+									width={30}
+									height={30}
+								/>
+							</label>
+							<div className='  z-[100]  pt-6  lg:hidden mobile-menu'>
+								<ul className=' text-color-primary   flex flex-col  bg-black3 backdrop-blur-xl w-full  rounded-xl '>
+									<Link
+										href='/store'
+										className=' p-4  pt-8 m2:py-6 m2:pt-12 w-full text-center text-[1.3rem] m3:text-[1.7rem] md:text-[2.4rem] lg:text-[2.1rem] xl:text-[2.9rem] '
+									>
+										store
+									</Link>
+									<Link
+										href='/work'
+										className='p-4 py-5  m2:py-6 w-full text-center text-[1.3rem] m3:text-[1.7rem] md:text-[2.4rem] lg:text-[2.1rem] xl:text-[2.9rem]'
+									>
+										work
+									</Link>
+									<Link
+										// smooth
+										className='p-4 py-5 m2:py-6 w-full text-center text-[1.3rem] m3:text-[1.7rem] md:text-[2.4rem] lg:text-[2.1rem] xl:text-[2.9rem]'
+										href={'/#services'}
+									>
+										services
+									</Link>
+									<Link
+										// smooth
+										className='p-4 py-5 m2:py-6 w-full text-center text-[1.3rem] m3:text-[1.7rem] md:text-[2.4rem] lg:text-[2.1rem] xl:text-[2.9rem]'
+										href={'/#plans'}
+									>
+										plans
+									</Link>
+									<Link
+										className='p-4 py-5 m2:py-6 w-full text-center text-[1.3rem] m3:text-[1.7rem] md:text-[2.4rem] lg:text-[2.1rem] xl:text-[2.9rem]'
+										href='/cart'
+									>
+										cart
+									</Link>
+									<div className=' pt-5 m2:pt-6 w-full p-4'>
+										<Link href='/login'>
+											<Button
+												className='w-full btn-base  rounded-lg capitalize bg-black4  text-white  '
+												text='login'
+											/>
+										</Link>
+									</div>
+								</ul>
+							</div>
 						</div>
 						<Link href='/login' className=' hidden lg:block'>
 							<Button
@@ -129,82 +178,7 @@ export default function NavbarPublic() {
 						</Link>
 					</div>
 				</nav>
-
-				{mobileMenu ? (
-					<div className='  z-[100]  pt-6  lg:hidden '>
-						<div className='bg-black2 backdrop-blur-xl w-full  rounded-xl '>
-							<ul className=' text-color-primary   flex flex-col '>
-								<Link
-									href='/store'
-									className=' p-4  pt-8 m2:py-6 m2:pt-12 w-full text-center text-[1.3rem] m3:text-[1.7rem] md:text-[2.4rem] lg:text-[2.1rem] xl:text-[2.9rem] '
-									onClick={() => {
-										localStorage.setItem('clicked', 'store');
-										setMobileMenu(false);
-									}}
-								>
-									store
-								</Link>
-								<Link
-									href='/work'
-									className='p-4 py-5  m2:py-6 w-full text-center text-[1.3rem] m3:text-[1.7rem] md:text-[2.4rem] lg:text-[2.1rem] xl:text-[2.9rem]'
-									onClick={() => {
-										localStorage.setItem('clicked', 'work');
-										setMobileMenu(false);
-									}}
-								>
-									work
-								</Link>
-								<Link
-									// smooth
-									className='p-4 py-5 m2:py-6 w-full text-center text-[1.3rem] m3:text-[1.7rem] md:text-[2.4rem] lg:text-[2.1rem] xl:text-[2.9rem]'
-									href={'/#services'}
-									onClick={() => {
-										setMobileMenu(false);
-										localStorage.setItem('clicked', 'services');
-									}}
-								>
-									services
-								</Link>
-								<Link
-									// smooth
-									className='p-4 py-5 m2:py-6 w-full text-center text-[1.3rem] m3:text-[1.7rem] md:text-[2.4rem] lg:text-[2.1rem] xl:text-[2.9rem]'
-									href={'/#plans'}
-									onClick={() => {
-										setMobileMenu(false);
-										localStorage.setItem('clicked', 'plans');
-									}}
-								>
-									plans
-								</Link>
-								<Link
-									className='p-4 py-5 m2:py-6 w-full text-center text-[1.3rem] m3:text-[1.7rem] md:text-[2.4rem] lg:text-[2.1rem] xl:text-[2.9rem]'
-									href='/cart'
-									onClick={() => {
-										localStorage.setItem('clicked', 'cart');
-										setMobileMenu(false);
-									}}
-								>
-									cart
-								</Link>
-								<div className=' pt-5 m2:pt-6 w-full p-4'>
-									<button
-										className='w-full btn-base  rounded-lg capitalize bg-black4  text-white  '
-										onClick={(e) => {
-											console.log(e);
-											setMobileMenu(false);
-										}}
-									>
-										login
-									</button>
-								</div>
-							</ul>
-						</div>
-					</div>
-				) : (
-					''
-				)}
 			</div>
-			{/* {console.log('from navbar', clicked)} */}
 		</>
 	);
 }
