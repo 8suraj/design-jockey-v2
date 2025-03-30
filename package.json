@@ -1,0 +1,39 @@
+{
+  "name": "design-jockey-v2",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "build:start": "next build && next start --port 3001"
+  },
+  "dependencies": {
+    "@splinetool/react-spline": "^4.0.0",
+    "@tanstack/react-virtual": "^3.13.5",
+    "i": "^0.3.7",
+    "next": "15.2.1",
+    "npm": "^11.2.0",
+    "react": "^19.0.0",
+    "react-device-detect": "^2.2.3",
+    "react-dom": "^19.0.0",
+    "react-lazy-load-image-component": "^1.6.3",
+    "react-spinners": "^0.15.0",
+    "scroll-carousel-react": "^1.0.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@types/react-lazy-load-image-component": "^1.6.4",
+    "eslint": "^9",
+    "eslint-config-next": "15.2.1",
+    "prettier": "^3.5.3",
+    "prettier-plugin-tailwindcss": "^0.6.11",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}

@@ -1,0 +1,264 @@
+{
+    "loginTabs": [
+        {
+            "content": "Looking for your Futur courses and kits purchased from our online store? You’ll find them here in the Academy.",
+            "href": "",
+            "buttonLabel": "Client Login",
+            "header": "Clients"
+        },
+        {
+            "content": "Looking for your Futur courses and kits purchased from our online store? You’ll find them here in the Academy.",
+            "href": "",
+            "buttonLabel": "Designer Login",
+            "header": "Designer"
+        }
+    ],
+    "navbarDataDashboard": [
+        {
+            "label": "Dashboard",
+            "value": "Dashboard",
+            "link": "/dashboard"
+        },
+        {
+            "label": "Profile",
+            "value": "Profile",
+            "link": "/profile"
+        },
+        {
+            "label": "Invite",
+            "value": "Invite",
+            "link": "/invite"
+        },
+        {
+            "label": "Store",
+            "value": "Store",
+            "link": "/store"
+        },
+        {
+            "label": "Cart",
+            "value": "Cart",
+            "link": "/cart"
+        }
+    ],
+    "sidebarItems": [
+        {
+            "label": "Create Brief",
+            "icon": "/assets/svgs/briefIcon.svg",
+            "value": "Brief",
+            "link": ""
+        },
+        {
+            "label": "Assign Job",
+            "icon": "/assets/svgs/jobIcon.svg",
+            "value": "AssignJob",
+            "link": ""
+        },
+        {
+            "label": "Progress",
+            "icon": "/assets/svgs/progressIcon.svg",
+            "value": "Progress",
+            "link": ""
+        },
+        {
+            "label": "File Manager",
+            "icon": "/assets/svgs/fileIcon.svg",
+            "value": "FileManager",
+            "link": ""
+        },
+        {
+            "label": "Meetings",
+            "icon": "/assets/svgs/meetingsIcon.svg",
+            "value": "Meetings",
+            "link": ""
+        },
+        {
+            "label": "Plans",
+            "icon": "/assets/svgs/plans.svg",
+            "value": "Plans",
+            "link": ""
+        },
+        {
+            "label": "User Profile",
+            "icon": "/assets/svgs/userIcon.svg",
+            "value": "UserProfile",
+            "link": ""
+        }
+    ],
+    "workImages": [
+        "https://pub-2a77ad7abc1d4b5fb9dc7e3bff7b2422.r2.dev/product/min/branding.png",
+        "https://pub-2a77ad7abc1d4b5fb9dc7e3bff7b2422.r2.dev/work/webp/293poster-min.webp",
+        "https://pub-2a77ad7abc1d4b5fb9dc7e3bff7b2422.r2.dev/work/webp/294poster-min.webp",
+        "https://pub-2a77ad7abc1d4b5fb9dc7e3bff7b2422.r2.dev/work/webp/295poster-min.webp",
+        "https://pub-2a77ad7abc1d4b5fb9dc7e3bff7b2422.r2.dev/work/webp/296poster-min.webp",
+        "https://pub-2a77ad7abc1d4b5fb9dc7e3bff7b2422.r2.dev/work/webp/297poster-min.webp",
+        "https://pub-2a77ad7abc1d4b5fb9dc7e3bff7b2422.r2.dev/work/webp/299poster-min.webp",
+        "https://pub-2a77ad7abc1d4b5fb9dc7e3bff7b2422.r2.dev/work/webp/301poster-min.webp",
+        "https://pub-2a77ad7abc1d4b5fb9dc7e3bff7b2422.r2.dev/work/webp/345poster-min.webp",
+        "https://pub-2a77ad7abc1d4b5fb9dc7e3bff7b2422.r2.dev/work/webp/346poster-min.webp",
+        "https://pub-2a77ad7abc1d4b5fb9dc7e3bff7b2422.r2.dev/work/webp/302poster-min.webp",
+        "https://pub-2a77ad7abc1d4b5fb9dc7e3bff7b2422.r2.dev/work/webp/304poster-min.webp",
+        "https://pub-2a77ad7abc1d4b5fb9dc7e3bff7b2422.r2.dev/work/webp/305poster-min.webp",
+        "https://pub-2a77ad7abc1d4b5fb9dc7e3bff7b2422.r2.dev/work/webp/306poster-min.webp",
+        "https://pub-2a77ad7abc1d4b5fb9dc7e3bff7b2422.r2.dev/work/webp/307poster-min.webp",
+        "https://pub-2a77ad7abc1d4b5fb9dc7e3bff7b2422.r2.dev/work/webp/308poster-min.webp",
+        "https://pub-2a77ad7abc1d4b5fb9dc7e3bff7b2422.r2.dev/work/webp/310poster-min.webp",
+        "https://pub-2a77ad7abc1d4b5fb9dc7e3bff7b2422.r2.dev/work/webp/311poster-min.webp",
+        "https://pub-2a77ad7abc1d4b5fb9dc7e3bff7b2422.r2.dev/work/webp/312poster-min.webp",
+        "https://pub-2a77ad7abc1d4b5fb9dc7e3bff7b2422.r2.dev/work/webp/313poster-min.webp",
+        "https://pub-2a77ad7abc1d4b5fb9dc7e3bff7b2422.r2.dev/work/webp/314poster-min.webp",
+        "https://pub-2a77ad7abc1d4b5fb9dc7e3bff7b2422.r2.dev/work/webp/316poster-min.webp",
+        "https://pub-2a77ad7abc1d4b5fb9dc7e3bff7b2422.r2.dev/work/webp/317poster-min.webp",
+        "https://pub-2a77ad7abc1d4b5fb9dc7e3bff7b2422.r2.dev/work/webp/318poster-min.webp",
+        "https://pub-2a77ad7abc1d4b5fb9dc7e3bff7b2422.r2.dev/work/webp/319poster-min.webp",
+        "https://pub-2a77ad7abc1d4b5fb9dc7e3bff7b2422.r2.dev/work/webp/320poster-min.webp",
+        "https://pub-2a77ad7abc1d4b5fb9dc7e3bff7b2422.r2.dev/work/webp/321poster-min.webp",
+        "https://pub-2a77ad7abc1d4b5fb9dc7e3bff7b2422.r2.dev/work/webp/322poster-min.webp",
+        "https://pub-2a77ad7abc1d4b5fb9dc7e3bff7b2422.r2.dev/work/webp/323poster-min.webp",
+        "https://pub-2a77ad7abc1d4b5fb9dc7e3bff7b2422.r2.dev/work/webp/325poster-min.webp",
+        "https://pub-2a77ad7abc1d4b5fb9dc7e3bff7b2422.r2.dev/work/webp/326poster-min.webp",
+        "https://pub-2a77ad7abc1d4b5fb9dc7e3bff7b2422.r2.dev/work/webp/327poster-min.webp",
+        "https://pub-2a77ad7abc1d4b5fb9dc7e3bff7b2422.r2.dev/work/webp/328poster-min.webp",
+        "https://pub-2a77ad7abc1d4b5fb9dc7e3bff7b2422.r2.dev/work/webp/329poster-min.webp",
+        "https://pub-2a77ad7abc1d4b5fb9dc7e3bff7b2422.r2.dev/work/webp/330poster-min.webp",
+        "https://pub-2a77ad7abc1d4b5fb9dc7e3bff7b2422.r2.dev/work/webp/331poster-min.webp",
+        "https://pub-2a77ad7abc1d4b5fb9dc7e3bff7b2422.r2.dev/work/webp/332poster-min.webp",
+        "https://pub-2a77ad7abc1d4b5fb9dc7e3bff7b2422.r2.dev/work/webp/333poster-min.webp",
+        "https://pub-2a77ad7abc1d4b5fb9dc7e3bff7b2422.r2.dev/work/webp/335poster-min.webp",
+        "https://pub-2a77ad7abc1d4b5fb9dc7e3bff7b2422.r2.dev/work/webp/337poster-min.webp",
+        "https://pub-2a77ad7abc1d4b5fb9dc7e3bff7b2422.r2.dev/work/webp/338poster-min.webp",
+        "https://pub-2a77ad7abc1d4b5fb9dc7e3bff7b2422.r2.dev/work/webp/339poster-min.webp",
+        "https://pub-2a77ad7abc1d4b5fb9dc7e3bff7b2422.r2.dev/work/webp/340poster-min.webp",
+        "https://pub-2a77ad7abc1d4b5fb9dc7e3bff7b2422.r2.dev/work/webp/341poster-min.webp",
+        "https://pub-2a77ad7abc1d4b5fb9dc7e3bff7b2422.r2.dev/work/webp/342poster-min.webp",
+        "https://pub-2a77ad7abc1d4b5fb9dc7e3bff7b2422.r2.dev/work/webp/343poster-min.webp",
+        "https://pub-2a77ad7abc1d4b5fb9dc7e3bff7b2422.r2.dev/work/webp/344poster-min.webp",
+        "https://pub-2a77ad7abc1d4b5fb9dc7e3bff7b2422.r2.dev/work/webp/347poster-min.webp",
+        "https://pub-2a77ad7abc1d4b5fb9dc7e3bff7b2422.r2.dev/work/webp/348poster-min.webp",
+        "https://pub-2a77ad7abc1d4b5fb9dc7e3bff7b2422.r2.dev/work/webp/349poster-min.webp",
+        "https://pub-2a77ad7abc1d4b5fb9dc7e3bff7b2422.r2.dev/work/webp/351poster-min.webp",
+        "https://pub-2a77ad7abc1d4b5fb9dc7e3bff7b2422.r2.dev/work/webp/353poster-min.webp",
+        "https://pub-2a77ad7abc1d4b5fb9dc7e3bff7b2422.r2.dev/work/webp/354poster-min.webp",
+        "https://pub-2a77ad7abc1d4b5fb9dc7e3bff7b2422.r2.dev/work/webp/354poster-min.webp",
+        "https://pub-2a77ad7abc1d4b5fb9dc7e3bff7b2422.r2.dev/work/webp/360poster-min.webp",
+        "https://pub-2a77ad7abc1d4b5fb9dc7e3bff7b2422.r2.dev/work/webp/361poster-min.webp",
+        "https://pub-2a77ad7abc1d4b5fb9dc7e3bff7b2422.r2.dev/work/webp/362poster-min.webp",
+        "https://pub-2a77ad7abc1d4b5fb9dc7e3bff7b2422.r2.dev/work/webp/363poster-min.webp",
+        "https://pub-2a77ad7abc1d4b5fb9dc7e3bff7b2422.r2.dev/work/webp/364poster-min.webp",
+        "https://pub-2a77ad7abc1d4b5fb9dc7e3bff7b2422.r2.dev/work/webp/365poster-min.webp"
+    ],
+    "membershipTypes": [
+        {
+            "plan": "Starter",
+            "price": "833",
+            "facilities": [
+                "Updates every 48 hours.",
+                "1 pause allowed per month.",
+                "No minimum commitment;  ",
+                "pause or cancel anytime.",
+                "Ownership of source files.",
+                "Dedicated designer."
+            ],
+            "tenure": "Paid monthly",
+            "buyType": "Buy now"
+        },
+        {
+            "plan": "Core",
+            "price": "933",
+            "facilities": [
+                "Updates once daily.",
+                "1 pause allowed per month.",
+                "No minimum commitment; ",
+                "pause or cancel anytime.",
+                "Ownership of source files.",
+                "Dedicated designer."
+            ],
+            "tenure": "Paid quarterly",
+            "buyType": "Buy now"
+        },
+        {
+            "plan": "Growth",
+            "price": "1033",
+            "facilities": [
+                "Updates twice daily.",
+                "2 pause allowed per month.",
+                "No minimum commitment;",
+                "pause or cancel anytime.",
+                "Ownership of source files.",
+                "Dedicated designer."
+            ],
+            "tenure": "Paid yearly",
+            "buyType": "Buy now"
+        }
+    ],
+    "services": [
+        "Brand guidelines",
+        "Website design",
+        "Mobile app design",
+        "Motion Graphics",
+        "Pitch decks",
+        "Stationary",
+        "Emailers",
+        "Print Ads",
+        "Slide decks",
+        "Social media ",
+        "Outdoors",
+        "Google Ads",
+        "Business cards",
+        "Packaging",
+        "Digital Ads",
+        "Logo",
+        "Blog Creative",
+        "Posters",
+        "Infographics",
+        "Iconography"
+    ],
+    "testimonial": [
+        {
+            "img": "https://pub-2a77ad7abc1d4b5fb9dc7e3bff7b2422.r2.dev/Ellipse1.svg",
+            "header": "Design is everything, and these guys have nailed it.",
+            "name": "Priyam Dey",
+            "companyName": "Jockey"
+        },
+        {
+            "img": "https://pub-2a77ad7abc1d4b5fb9dc7e3bff7b2422.r2.dev/Ellipse2.svg",
+            "header": "Design is everything, and these guys have nailed it.",
+            "name": "Sam Paul",
+            "companyName": "Jockey"
+        },
+        {
+            "img": "https://pub-2a77ad7abc1d4b5fb9dc7e3bff7b2422.r2.dev/Ellipse3.svg",
+            "header": "Design is everything, and these guys have nailed it.",
+            "name": "Arjun Das",
+            "companyName": "Jockey"
+        },
+        {
+            "img": "https://pub-2a77ad7abc1d4b5fb9dc7e3bff7b2422.r2.dev/user.jpg",
+            "header": "Design is everything, and these guys have nailed it.",
+            "name": "Prosenjit Sharma",
+            "companyName": "Jockey"
+        }
+    ],
+    "serviceItems": [
+        "Brand Logo",
+        "Typography",
+        "Colors",
+        "Stationary",
+        "Mockups",
+        "Guideline Booklet",
+        "Source file ownership",
+        "Dedicated designer",
+        "Update every 48 hrs"
+    ],
+    "productProspect": [
+        {
+            "header": "Why branding is important",
+            "subheader": "Perks so good you'll never need to go anywhere else for your design. Seriously.",
+            "image": "https://pub-2a77ad7abc1d4b5fb9dc7e3bff7b2422.r2.dev/a-min.png"
+        },
+        {
+            "header": "Why branding is important",
+            "subheader": "Perks so good you'll never need to go anywhere else for your design. Seriously.",
+            "image": "https://pub-2a77ad7abc1d4b5fb9dc7e3bff7b2422.r2.dev/a-min.png"
+        }
+    ]
+}
