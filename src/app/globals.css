@@ -276,3 +276,22 @@
         display: none;
     }
 }
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #383737;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #c4fe01;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #c4fe01;
+}
